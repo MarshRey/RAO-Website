@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RAO Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--https://www.w3schools.com/w3css/4/w3.css-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"> <!--https://fonts.googleapis.com/css?family=Montserrat-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css -->
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+  <!-- Avatar image in top left corner -->
+  <!--<img src="/w3images/avatar_smoke.jpg" style="width:100%">-->
+  <a href="#main" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#CONTACT INFO" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT INFO</p>
+  </a>
+  <a href="#DOCUMENTS" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-folder w3-xxlarge"></i>
+    <p>DOCUMENTS</p>
+  </a>
+  <a href="#VIDEOS" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-play w3-xxlarge"></i>
+    <p>VIDEOS</p>
+  </a>
+  <a href="#FAQ" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-question w3-xxlarge"></i>
+    <p>FAQ</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#main" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#CONTACT INFO" class="w3-bar-item w3-button" style="width:25% !important">CONTACT INFO</a>
+    <a href="#DOCUMENTS" class="w3-bar-item w3-button" style="width:25% !important">DOCUMENTS</a>
+    <a href="#VIDEOS" class="w3-bar-item w3-button" style="width:25% !important">VIDEOS</a>
+    <a href="#FAQ" class="w3-bar-item w3-button" style="width:25% !important">FAQ</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">The</span> Retired Affairs Office</h1>
+    <p>All The Information You Could Need.</p>
+    <!--<img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">-->
+  </header>
+
+  <!-- CONTACT INFO Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="CONTACT INFO">
+    <h2 class="w3-text-light-grey">CONTACT INFO</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> Phone Number: 1-808-474-0032</p>
+    <p> Email: example@gmail.com </p>
+    <p> Address: 4872 Bougainville Drive, Room 226, Honolulu, Hawaii, 96818 </p>
+  </div>
+  <!-- End CONTACT INFO Section -->
+
+  <!-- DOCUMENTS Section -->
+  <div class="w3-padding-64 w3-content" id="DOCUMENTS">
+    <h2 class="w3-text-light-grey">Documents</h2>
+    <hr style="width:200px" class="w3-opacity">
+    
+    <p>2022 Decendent Affairs: The following is an informational checklist for...
+       click the dowload button below to download a copy of the pdf to your computer.
+    </p>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download 2022 Decendent Affairs as pdf
+    </button>
+    <p>2023 Personal Affairs: The following is an informational checklist for...
+       click the dowload button below to download a copy of the pdf to your computer.
+    </p>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download 2023 Personal Affairs as pdf
+    </button>
+    <p>2023 RAO Bulletin: The following is an informational bulletin containing a 
+       large amount of useful information...
+       click the dowload button below to download a copy of the pdf to your computer.
+    </p>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download 2023 RAO Bulletin as pdf
+    </button>
+  </div>
+  <!-- End DOCUMENTS Section -->
+  
+  <!-- VIDEOS Section -->
+  <div class="w3-padding-64 w3-content" id="VIDEOS">
+    <h2 class="w3-text-light-grey">Videos</h2>
+    <hr style="width:200px" class="w3-opacity">
+  </div>
+  <!-- End VIDEOS Section -->
+
+  <!-- FAQ Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="FAQ">
+    <h2 class="w3-text-light-grey">FAQ</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <h3> Agent Privilege Cards </h3>
+    <p> Joint Base Pearl Harbor-Hickam ONLY (vehicle pass office at Nimitz Gate).
+        808-449-0865 or 0867. We will also have copies at the office of the several forms the Pass & ID 
+        Office people will want to see filled out. (will be a folder in the credenza when we get back to the 
+        office)
+        For other installations, contact the appropriate retirement services, personnel office or vehicle 
+        pass and ID office.
+    </p>
+
+    <h3> Arlington National Cemetery </h3>
+    <p> 1-7030-607-8000, http://www.arlingtoncemetery.mil. </p>
+    
+    <h3> Air Force Aid Society </h3>
+    <p> Hickam Field; 808-449-0301(automated phone tree-follow instructions). </p>
+    
+    <h3> Air Force Mortuary Affairs </h3>
+    <p> See “Funeral Support Services.” </p>
+
+    <h3> Air Force Casualty Assistance </h3>
+    <p> Services-Hickam Field: 808-449-0310 / 0303 / 0313. 
+        Airman and Family Readiness Section: 655 Vickers Ave., 
+        Bldg 1105, JBPHH, HI 96853.
+    </p>
+
+    <h3> Air Force Retiree Services-Total Force Service Center </h3>
+    <p> AFPC/DPFFF, 550 C Street W, 
+        JBSA-Randolph, TX 78150 (Randolph AFB)
+        Email: afpc.retiree@us.af.mil
+    </p>
+
+    <!-- input boxes removed for time being
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    -->
+  </div>
+  <!-- End FAQ Section -->
+  
+  <!-- footer removed for time being
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+  -->
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
